@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/ubuntu/tools/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/ubuntu/Led/ledblink/build/bootloader",
+    "config_file":        "/home/ubuntu/Led/ledblink/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v5.0-dev-dirty",
+    "target":             "esp32c3",
+    "rev":                "",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/ubuntu/tools/esp-idf/components/efuse/Kconfig;/home/ubuntu/tools/esp-idf/components/esp32c3/Kconfig;/home/ubuntu/tools/esp-idf/components/esp_common/Kconfig;/home/ubuntu/tools/esp-idf/components/esp_hw_support/Kconfig;/home/ubuntu/tools/esp-idf/components/esp_system/Kconfig;/home/ubuntu/tools/esp-idf/components/freertos/Kconfig;/home/ubuntu/tools/esp-idf/components/hal/Kconfig;/home/ubuntu/tools/esp-idf/components/log/Kconfig;/home/ubuntu/tools/esp-idf/components/newlib/Kconfig;/home/ubuntu/tools/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/ubuntu/tools/esp-idf/components/bootloader/Kconfig.projbuild;/home/ubuntu/tools/esp-idf/components/esp_rom/Kconfig.projbuild;/home/ubuntu/tools/esp-idf/components/esptool_py/Kconfig.projbuild;/home/ubuntu/tools/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32c3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "/home/ubuntu/tools/esp-idf/components/bootloader", "/home/ubuntu/tools/esp-idf/components/bootloader_support", "/home/ubuntu/tools/esp-idf/components/efuse", "/home/ubuntu/tools/esp-idf/components/esp32c3", "/home/ubuntu/tools/esp-idf/components/esp_common", "/home/ubuntu/tools/esp-idf/components/esp_hw_support", "/home/ubuntu/tools/esp-idf/components/esp_rom", "/home/ubuntu/tools/esp-idf/components/esp_system", "/home/ubuntu/tools/esp-idf/components/esptool_py", "/home/ubuntu/tools/esp-idf/components/freertos", "/home/ubuntu/tools/esp-idf/components/hal", "/home/ubuntu/tools/esp-idf/components/log", "/home/ubuntu/tools/esp-idf/components/bootloader/subproject/main", "/home/ubuntu/tools/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/ubuntu/tools/esp-idf/components/newlib", "/home/ubuntu/tools/esp-idf/components/partition_table", "/home/ubuntu/tools/esp-idf/components/riscv", "/home/ubuntu/tools/esp-idf/components/soc", "/home/ubuntu/tools/esp-idf/components/spi_flash", "" ]
+}
